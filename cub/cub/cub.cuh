@@ -37,6 +37,7 @@
 #  pragma system_header
 #endif // no system header
 
+// IWYU pragma: begin_exports
 // Block
 #include <cub/block/block_adjacent_difference.cuh>
 #include <cub/block/block_discontinuity.cuh>
@@ -109,3 +110,4 @@
 #include <cub/util_ptx.cuh>
 #include <cub/util_temporary_storage.cuh>
 #include <cub/util_type.cuh>
+// IWYU pragma: end_exports
